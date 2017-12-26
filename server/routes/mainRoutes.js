@@ -17,7 +17,7 @@ module.exports=function(router){
         var source = { company : 'ENKI'};
         var {company : v1 , topic : v2=100} = source;
         console.log(v1+v2);
-        
+        console.log(v1);
 
         //part 3
         var myArray;
